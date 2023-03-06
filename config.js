@@ -1,12 +1,12 @@
 
 const variablesRailway = {
-  // PORT: process.env.PORT || 3000,
-  DB_HOST: process.env.DB_HOST || 'localhost',
+  PORT: process.env.PORT || 3000,
+  DB_HOST: process.env.DB_HOST || 'containers-us-west-185.railway.app',
   DB_USER: process.env.DB_USER || 'root',
-  DB_PASSWORD: process.env.DB_PASSWORD || 'rrlalh25',
-  DB_NAME: process.env.DB_NAME || 'lavanderia',
-  DB_PORT: process.env.DB_PORT || 3306
+  DB_PASSWORD: process.env.DB_PASSWORD || 'TKDGQDlXPJSxtV79RBxV',
+  DB_NAME: process.env.DB_NAME || 'railway',
+  DB_PORT: process.env.DB_PORT || 7667
 }
 
 
-exports.default = {variablesRailway};
+module.exports = {variablesRailway};

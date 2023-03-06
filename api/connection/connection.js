@@ -4,9 +4,11 @@ const variablesRailway = require('../../config')
 // const mysqlConnection = mysql.createConnection({
 //   host: "localhost",
 //   user: "root",
-//   password: "rrlalh25",
+//   password: "",
 //   database: "lavanderia",
 // });
+
+console.log('variablesRailway', variablesRailway);
 
 const mysqlConnection = mysql.createConnection({
   host: variablesRailway.DB_HOST,
@@ -15,6 +17,8 @@ const mysqlConnection = mysql.createConnection({
   database: variablesRailway.DB_NAME,
   port: variablesRailway.DB_PORT
 });
+
+
 
 mysqlConnection.connect((err) => {
   if (err) {
