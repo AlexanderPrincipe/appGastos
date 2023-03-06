@@ -5,4 +5,4 @@ const variablesRailway = require('./config')
 const server = http.createServer(app);
 
 console.log('CONFIGGG', variablesRailway)
-server.listen(variablesRailway.PORT || 3000);
+server.listen(variablesRailway.DB_PORT || 3000);
